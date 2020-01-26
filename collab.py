@@ -45,7 +45,7 @@ def collab():
             os.system('git clone https://github.com/sundowndev/PhoneInfoga')
             os.system('pip install -r /data/data/com.termux/files/home/csllab/PhoneInfoga/requirements.txt')
         phone = input('укажите номер телефона:')
-        os.system('python /data/data/com.termux/files/home/csllab/PhoneInfoga/phoneinfoga.py ' + phone)
+        os.system('python /data/data/com.termux/files/home/csllab/PhoneInfoga/phoneinfoga.py -n ' + phone)
     elif what == '4' or what == '04':
         os.system('exit')
         os.system('exit')

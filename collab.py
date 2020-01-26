@@ -37,9 +37,9 @@ def collab():
     if what == '1' or what == '01':
         if not os.path.exists('spymer'):
             os.system('git clone https://github.com/FSystem88/spymer')
-        os.system('bash /data/data/com.termux/files/home/csllab/spymer/install.sh')
+        os.system('bash /data/data/com.termux/files/home/spymer/install.sh')
         num = input('укажите номер телефона:'
-        os.system('python /data/data/com.termux/files/home/csllab/spymer/spammer.py '+ num)
+        os.system('python /data/data/com.termux/files/home/spymer/spammer.py ' + num)
     elif what == '2' or what == '02':
         if not os.path.exists('PhoneInfoga'):
             os.system('git clone https://github.com/sundowndev/PhoneInfoga')
